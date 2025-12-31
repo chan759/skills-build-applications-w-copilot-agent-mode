@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Team, User, Activity, Workout, Leaderboard
+from octofit_tracker.models import Team, User, Activity, Workout, Leaderboard
 
 class TeamSerializer(serializers.ModelSerializer):
     class Meta:
